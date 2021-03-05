@@ -1,0 +1,39 @@
+.table1 {
+    font-family: "georgia";
+    color: #444;
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid #e1edff;
+}
+
+.table1 tr th{
+    font-family: "verdana";
+    font-size: 16px;
+    background: #a29bfe;
+    color: #2c2c54;
+    font-weight: bold;
+}
+
+.table1, th, td {
+    padding: 10px 8px;
+    text-align: left;
+    background: #dfe4ea;
+    border-bottom: 2px solid #ffffff;   
+}
+
+.table1 tr {
+    background-color: #a4b0be;
+}
+
+@media (min-width: 1020px) {
+    .table1 {
+       color:darkblue;
+    }
+}
+
+@media (min-width: 768px) {
+    .table1 {
+        width: 50%;
+        margin: auto;
+    }
+}
